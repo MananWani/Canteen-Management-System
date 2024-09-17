@@ -1,0 +1,87 @@
+body {
+	font-family: 'Rubik', cursive;
+}
+
+.logo {
+	display: block;
+	margin: 10px auto;
+	width: 120px;
+	height: 100px;
+}
+
+.btn {
+	display: none; /* Hide by default */
+}
+
+.btn.show {
+	display: block; /* Show when .show class is added */
+}
+
+.password-container {
+	position: relative;
+	display: flex;
+	align-items: center; /* Center items vertically */
+}
+
+.eye-icon {
+	position: absolute;
+	top: 50%; /* Center vertically */
+	right: 10px; /* Distance from the right edge */
+	transform: translateY(-50%);
+	/* Center vertically considering its own height */
+	cursor: pointer;
+	display: none; /* Hide by default */
+	font-size: 1.2rem; /* Adjust font size if needed */
+	color: #333; /* Adjust color if needed */
+}
+
+.password-container.show-eye .eye-icon {
+	display: block; /* Show when .show-eye class is added */
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the navbar stays above other content */
+    background-color: #fff; 
+    border-bottom: 1px solid #e1e1e1;
+     
+}
+
+.navbar-brand {
+	font-size: 2rem;
+	color: black;
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+}
+.footer {
+    background-color: #dc143c; /* Crimson background color */
+    color: #fff; /* White text color */
+   	font-family: 'Rubrik', cursive;
+     	 
+}
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #fff; /* Ensure headings are white */
+   
+}
+.footer p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    color: #fff; /* Ensure paragraphs are white */
+    
+}
+
+.footer a {
+    color: #fff; /* White color for links */
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .container {
+    max-width: 1000px;
+    margin: 0 auto; /* Center container */
+}

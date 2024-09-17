@@ -1,0 +1,173 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the navbar stays above other content */
+    background-color: #fff; 
+    border-bottom: 1px solid #e1e1e1;
+     
+}
+
+.navbar-brand {
+	font-size: 2rem;
+	color: black;
+	font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover {
+	color: black;
+}
+
+.nav-link {
+	margin-right: 10px;
+	margin-left: 10px;
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Rubrik', cursive;
+}
+
+.nav-link:hover {
+	color: black;
+}
+
+.btn0 {
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    line-height: 40px; /* Vertically centers text within the height */
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: crimson;
+    color: white;
+    border-radius: 60px;
+    font-family: 'Rubik', cursive;
+}
+
+
+.btn0:hover {
+    background-color: #c8102e;
+    color: white;
+}
+
+
+.main {
+	background: url("../images/bg.jpg") no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+
+.main h1 {
+	margin-top: 260px; 
+	font-family: 'Lobster', cursive;
+	font-size: 5rem;
+	color: black;
+}
+
+.menu {
+	background-color: #f8f9fa;
+}
+
+.menu h6 {
+	margin-top: 10px;
+	font-family: 'Rubrik', cursive;
+}
+
+.menu .row>.col-lg-4 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/* Menu Items Section Styles */
+.menu-items {
+	background-color: #f8f9fa;
+	/* Light background for the menu items section */
+	padding: 2rem 0;
+}
+
+.menu-items h2 {
+	color: #dc143c; /* Crimson color for section headings */
+	margin-bottom: 1.5rem;
+	font-family: 'Rubrik',cursive;
+}
+
+.menu-items img {
+	max-width: 100%;
+	height: 200px; /* Set a fixed height for all images */
+	object-fit: cover; /* Ensure images cover the area while maintaining aspect ratio */
+	border-radius: 10px;
+}
+
+.menu-items h5 {
+	font-size: 1.125rem;
+	margin: 0.5rem 0;
+	font-family: 'Rubrik',cursive;
+}
+
+.menu-items p {
+	font-size: 1rem;
+	color: #333;
+	font-family: 'Rubrik',cursive;
+}
+
+.btn-primary {
+	background-color: #dc143c; /* Crimson button color */
+	border: none;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	font-family: 'Rubrik', cursive;
+	border-radius: 60px;
+}
+
+.btn-primary:hover {
+	background-color: #c8102e; /* Darker crimson on hover */
+}
+
+/* Footer Styles */
+ .footer {
+    background-color: #dc143c; Crimson background color
+    color: #fff; White text color
+    	font-family: 'Rubrik', cursive;
+     	
+    
+}
+
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #fff; Ensure headings are white
+   
+}
+
+.footer p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    color: #fff; Ensure paragraphs are white
+    
+}
+
+.footer a {
+    color: #fff; White color for links
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+} 
+
+.footer .container {
+    max-width: 1140px;
+    margin: 0 auto; /* Center container */
+}
+
+
+
+
+
